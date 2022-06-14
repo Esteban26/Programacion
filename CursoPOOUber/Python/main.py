@@ -1,3 +1,4 @@
+from UberX import UberX
 from car import Car
 from account import Account
 from user import User
@@ -22,7 +23,9 @@ if __name__ == "__main__":
     # car.passengenger = 3
     # print(vars(car))
 
-    user = User("Esteban Patiño","CC12343","angelesteban0326@gmail.com","myPasswordRandom")
-    print(vars(user))
-    driver = Driver("pepito Patiño","CC1259","otrocorreo94@gmail.com","myPasswordRandomX2")
-    print(vars(driver))
+    # user = User("Esteban Patiño","CC12343","angelesteban0326@gmail.com","myPasswordRandom")
+    # print(vars(user))
+    # driver = Driver("pepito Patiño","CC1259","otrocorreo94@gmail.com","myPasswordRandomX2")
+    # print(vars(driver))
+    car = UberX("fgtr","estebsn","mazda","dwefr")
+    print(vars(car))
