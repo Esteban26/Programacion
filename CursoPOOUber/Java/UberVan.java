@@ -1,10 +1,11 @@
+package CursoPOOUber.Java;
 import java.util.ArrayList;
 import java.util.Map;
 
 class UberVan extends Car {
     Map<String, Map<String,Integer>> typeCarAccepted;
     ArrayList<String> seatsMaterial;
-    private Integer passenger;
+    Integer passenger;
     
     public UberVan(String license, Account driver){
         super(license, driver);
